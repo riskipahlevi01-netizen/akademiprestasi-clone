@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 171" width="148" height="171">
+	<title>gambar 1-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 36px;fill: #a7ffef;font-weight: bold;font-family: "Arial  Rounded  MT  Bold" } 
+	</style>
+	<text id="5 " style="transform: matrix(5.389,0,0,5.389,6.684,153.793)" >
+		<tspan x="0" y="0" class="t0">5</tspan><tspan  y="0" class="t0">
+</tspan>
+	</text>
+</svg>

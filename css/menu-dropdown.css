@@ -1,0 +1,117 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main navigation menu */
+.elementor-nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.elementor-nav-menu > li {
+    position: relative;
+}
+
+.elementor-nav-menu > li > a.elementor-item {
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+/* Hover effect for main menu items */
+.elementor-nav-menu > li:hover > a.elementor-item,
+.elementor-nav-menu > li > a.elementor-item.elementor-item-active {
+    color: #f36f21; /* Accent color (orange) for hover */
+}
+
+/* DROPDOWN MENU STYLING */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 72px;  /* Position submenu below the menu */
+    left: 10px;  /* Shift the submenu slightly to the right */
+    min-width: 220px;
+    padding: 8px 0;
+    margin: 0;
+    list-style: none;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    z-index: 100;
+}
+
+.elementor-nav-menu li:hover > .sub-menu {
+    display: block;
+}
+
+.sub-menu > li > a.elementor-sub-item {
+    display: block;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background .15s ease, color .15s ease;
+}
+
+/* Hover effect for submenu items */
+.sub-menu > li:hover > a.elementor-sub-item {
+    background: #f5f5f5;
+    color: #f36f21;
+}
+
+/* Special "Info Kampus" menu */
+.elementor-nav-menu li.menu-item-has-children > a {
+    font-weight: bold;
+}
+
+.elementor-nav-menu li.menu-item-has-children:hover > .sub-menu {
+    display: block;
+}
+
+.sub-menu .sub-menu {
+    top: 0;
+    left: 10px;  /* Keep the submenu from going too far right */
+}
+
+/* Styling for the "Info Kampus" dropdown */
+.elementor-nav-menu li.menu-item-has-children > .sub-menu {
+    position: absolute;
+    top: 0;
+    left: 10px; /* Slightly adjusted to keep it from going too far to the right */
+    min-width: 320px;
+    background: #00aeb9; /* Tosca background for "Info Kampus" */
+}
+
+.elementor-nav-menu li.menu-item-has-children > .sub-menu > li > a.elementor-sub-item {
+    color: white;
+    padding: 8px 20px;
+}
+
+.elementor-nav-menu li.menu-item-has-children > .sub-menu > li:hover > a.elementor-sub-item {
+    text-decoration: underline;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* Button for "Daftar" */
+button.daftar-button {
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.daftar-button:hover {
+    background-color: #FF6500;
+}
