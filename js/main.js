@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
+  // Fungsi untuk memuat komponen HTML ke dalam elemen yang ditentukan
   async function loadComponent(selector, filePath) {
     const el = document.querySelector(selector);
     if (!el) return;
@@ -11,7 +12,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.error("Error memuat komponen:", filePath, err);
     }
   }
-
 
   // Tentukan basePath berdasarkan URL
   const basePath = (() => {
@@ -30,9 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     if (pathname.includes("/tentang-kami") ||
-        pathname.includes("/bimbelcpns") ||
-        pathname.includes("/bimbelpppk") ||
-        pathname.includes("/bimbelbumn") ||
+        pathname.includes("/bimbel-akmil") ||
         pathname.includes("/blogs") ||
         pathname.includes("/kontak-kami")) {
       return "..";
@@ -45,5 +43,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadComponent("header", `${basePath}/components/header.html`);
   await loadComponent("footer", `${basePath}/components/footer.html`);
 
- 
+
+
 });
+
+
+
+
+

@@ -1,8 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/blog/detail/:slug",  
-      "destination": "/blog/detail/:slug.html"  
+      "source": "/blogs/detail/:slug",  
+      "destination": "/blogs/detail/:slug.html"
+    },
+    {
+      "source": "/kampus/:slug", 
+      "destination": "/kampus/:slug.html"
+    },
+    {
+      "source": "/program/:slug", 
+      "destination": "/program/:slug.html"
     }
   ]
 }
