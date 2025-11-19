@@ -19,12 +19,19 @@
 
 .elementor-nav-menu > li > a.elementor-item {
     display: block;
-    padding: 24px 0;
+    padding: 24px 0; 
     font-size: 16px;
     font-weight: 500;
     color: #333333;
     text-decoration: none;
-    transition: color .2s ease;
+    cursor: pointer; 
+    transition: color .2s ease; 
+}
+
+
+.elementor-nav-menu > li > a.elementor-item:hover {
+    padding: 24px 0; 
+    color: #000000; 
 }
 
 /* Hover effect for main menu items */
