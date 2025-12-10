@@ -1,4 +1,37 @@
 
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+
+		/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+
+		.woocommerce form .form-row .required {
+			visibility: visible;
+		}
+
+		/*# sourceURL=woocommerce-inline-inline-css */
+
+		img:is([sizes=auto i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+
+		/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+
+
+	
 		.elementor-kit-6 {
 			--e-global-color-primary: #6EC1E4;
 			--e-global-color-secondary: #54595F;
@@ -37,7 +70,7 @@
 			--widgets-spacing-column: 20px;
 		}
 
-			/* {} */
+			{}
 
 		h1.entry-title {
 			display: var(--page-title-display);
@@ -83,7 +116,7 @@
 
 		.elementor-35824 .elementor-element.elementor-element-d233d9a:not(.elementor-motion-effects-element-type-background),
 		.elementor-35824 .elementor-element.elementor-element-d233d9a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://akademiprestasi.com/wp-content/uploads/2025/03/background.jpg");
+			background-image: url("/wp-content/uploads/2025/03/background.jpg");
 			background-position: top center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1392,7 +1425,7 @@
 
 		.elementor-35824 .elementor-element.elementor-element-84c1ed9:not(.elementor-motion-effects-element-type-background),
 		.elementor-35824 .elementor-element.elementor-element-84c1ed9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://akademiprestasi.com/wp-content/uploads/2025/03/bg-scaled-2.jpg");
+			background-image: url("/wp-content/uploads/2025/03/bg-scaled-2.jpg");
 			background-position: center right;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1490,7 +1523,7 @@
 
 		.elementor-35824 .elementor-element.elementor-element-588a00a:not(.elementor-motion-effects-element-type-background),
 		.elementor-35824 .elementor-element.elementor-element-588a00a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://akademiprestasi.com/wp-content/uploads/2025/03/white-wall-with-gray-floor-product-background.jpg");
+			background-image: url("/wp-content/uploads/2025/03/white-wall-with-gray-floor-product-background.jpg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1514,7 +1547,7 @@
 
 		.elementor-35824 .elementor-element.elementor-element-47a538e:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 		.elementor-35824 .elementor-element.elementor-element-47a538e>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-			background-image: url("https://akademiprestasi.com/wp-content/uploads/2025/03/white-wall-with-gray-floor-product-background.jpg");
+			background-image: url("/wp-content/uploads/2025/03/white-wall-with-gray-floor-product-background.jpg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -1734,7 +1767,7 @@
 		.elementor-35824 .elementor-element.elementor-element-74437c1 .elementor-divider-separator {
 			width: 12%;
 			margin: 0 auto;
-			/* margin-center: 0; */
+			margin-center: 0;
 		}
 
 		.elementor-35824 .elementor-element.elementor-element-74437c1 .elementor-divider {
@@ -2271,7 +2304,7 @@
 
 			.elementor-35824 .elementor-element.elementor-element-74437c1 .elementor-divider-separator {
 				margin: 0 auto;
-				/* margin-center: 0; */
+				margin-center: 0;
 			}
 
 			.elementor-35824 .elementor-element.elementor-element-31c1cfb {
@@ -2816,5 +2849,102 @@
 			.elementor-5628 .elementor-element.elementor-element-3f4eee41 {
 				--spacer-size: 10px;
 			}
+		}
+
+		/*# sourceURL=elementor-frontend-inline-css */
+
+
+			.ae_data .elementor-editor-element-setting {
+			display: none !important;
+		}
+
+
+
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		
+		svg {
+			width: 1em;
+			height: 1em;
+			fill: currentColor;
+			display: inline-block;
+			vertical-align: middle;
+			margin-top: -2px;
+		}
+
+		@media (max-width: 500px) {
+			.site-header {
+				display: none !important;
+			}
+		}
+
+		.container,
+		.site-header,
+		.site-inner,
+		.main-navigation,
+		.page-landingpress-full-hf .site-header .container,
+		.page-landingpress-full-hf .main-navigation .container,
+		.page-landingpress-full-hf .site-footer-widgets .container {
+			max-width: 1200px;
+		}
+
+		@media (min-width: 1200px) {
+			.site-content .content-area {
+				float: left;
+				width: 64.51612903%;
+			}
+
+			.site-content .widget-area {
+				float: right;
+				width: 35.48387097%;
+			}
+		}
+
+		@media (max-width: 1199px) {
+			.site-content .content-area {
+				float: none;
+				width: 100%;
+			}
+
+			.site-content .widget-area {
+				float: none;
+				width: 100%;
+			}
+		}
+
+		@font-face {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 300 900;
+			font-display: fallback;
+			src: url('/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');
+			font-stretch: normal;
+		}
+
+		@font-face {
+			font-family: Cardo;
+			font-style: normal;
+			font-weight: 400;
+			font-display: fallback;
+			src: url('/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
 		}
 	
