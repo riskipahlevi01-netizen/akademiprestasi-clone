@@ -383,4 +383,103 @@ table.has-fixed-layout tr:nth-child(even) {
 }
 
 
+/* Menyembunyikan ikon close dan open saat tidak diperlukan */
+.elementor-menu-toggle__icon--close,
+.elementor-menu-toggle__icon--open {
+    display: block; /* Pastikan ikon terlihat */
+    font-size: 24px; /* Sesuaikan ukuran font jika diperlukan */
+    color: #000; /* Tentukan warna ikon */
+}
 
+.elementor-menu-toggle__icon--open {
+    display: block; /* Menampilkan ikon hamburger (open) pada awalnya */
+}
+
+.elementor-menu-toggle__icon--close {
+    display: none; /* Menyembunyikan ikon close pada awalnya */
+}
+
+/* Menampilkan ikon close ketika menu terbuka */
+.elementor-nav-menu--open .elementor-menu-toggle__icon--open {
+    display: none;
+}
+
+.elementor-nav-menu--open .elementor-menu-toggle__icon--close {
+    display: block; /* Menampilkan ikon close ketika menu terbuka */
+}
+
+/* ===== Desktop ===== */
+.content-wrapper{
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.article-main{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.recent-articles{
+  flex: 0 0 320px;
+  position: sticky;
+  top: 90px; /* sesuaikan tinggi header */
+}
+
+/* sidebar card */
+.recent-articles .article-link{
+  display: block;
+  text-decoration: none;
+}
+
+.recent-articles .article-content{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.recent-articles .article-image{
+  width: 110px;
+  height: 80px;
+  flex: 0 0 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 767px){
+  .content-wrapper{
+    display: block;
+  }
+
+  .recent-articles{
+    position: static;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .recent-articles-list{
+    display: grid;
+    gap: 12px;
+  }
+
+  /* featured image artikel utama full */
+  .article-main img.featured-image{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* tabel panjang bisa scroll */
+  .article-main figure.wp-block-table{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .article-main figure.wp-block-table table{
+    min-width: 700px;
+  }
+}
